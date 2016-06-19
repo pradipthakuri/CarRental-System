@@ -1,0 +1,5 @@
+﻿
+The Client side entities will have more functionalities.
+It may be used in Binding Scenarios in Web or xaml side, property change notification
+It also required validation rules
+The business and client entities must be equivalent meaning their naming must match

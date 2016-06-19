@@ -1,0 +1,7 @@
+﻿
+The Business side entities are lot simpler.
+It will carry data along the layer of the business side of the wire
+all the way starting from Data Access Layer upto Service Layer and
+anything in between.
+
+It needs no any external functionality except to serve as a carrier of data
