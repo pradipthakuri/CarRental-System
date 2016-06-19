@@ -5,3 +5,20 @@ all the way starting from Data Access Layer upto Service Layer and
 anything in between.
 
 It needs no any external functionality except to serve as a carrier of data
+
+ - Used Across Data Layer, Business Engine Layer and Service Layer
+  - Each entity maps to a database table
+  - Used as data contracts on business side
+	- Not the exclusive data contracts though
+	- Can still have custom data contracts wheneve needed
+
+- Data access layer will provide ORM mapping if needed
+	- DB-Context class will use EF fluent-language
+
+
+- The EntityBase base class provides common characteristics
+- Interface for identifying entity ID (IIdentifiableEntity)
+	- Will be used in Data Access module
+
+- Interface for identifying account ownnership(IAccountOwnedEntity)
+	- Will be used when adding security to application Security
